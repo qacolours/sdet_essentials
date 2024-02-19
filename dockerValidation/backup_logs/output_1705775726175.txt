@@ -1,0 +1,526 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Running 0/0
+ - Network dockervalidation_default  Creating[34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.3s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Network dockervalidation_default  [32mCreated[0m[34m0.3s [0m
+ - Container selenium-hub            Creating[34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network dockervalidation_default  [32mCreated[0m[34m0.3s [0m
+ - Container selenium-hub            Creating[34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network dockervalidation_default  [32mCreated[0m[34m0.3s [0m
+ - Container selenium-hub            Creating[34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.3s [0m
+ - Container dockervalidation-chrome-1   Creating[34m0.1s [0m
+ - Container dockervalidation-firefox-1  Creating[34m0.1s [0m
+ - Container dockervalidation-edge-1     Creating[34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/5
+ [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.3s [0m
+ - Container dockervalidation-chrome-1   Creating[34m0.2s [0m
+ - Container dockervalidation-firefox-1  Creating[34m0.2s [0m
+ - Container dockervalidation-edge-1     Creating[34m0.2s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/5
+ [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.3s [0m
+ - Container dockervalidation-chrome-1   Creating[34m0.3s [0m
+ - Container dockervalidation-firefox-1  Creating[34m0.3s [0m
+ - Container dockervalidation-edge-1     Creating[34m0.3s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 5/5[0m
+ [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container dockervalidation-chrome-1   [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container dockervalidation-firefox-1  [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container dockervalidation-edge-1     [32mCreated[0m[34m0.3s [0m
+[?25hAttaching to chrome-1, edge-1, firefox-1, selenium-hub
+selenium-hub  | 2024-01-20 18:34:01,144 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub  | 2024-01-20 18:34:01,170 INFO RPC interface 'supervisor' initialized
+selenium-hub  | 2024-01-20 18:34:01,170 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+selenium-hub  | 2024-01-20 18:34:01,173 INFO supervisord started with pid 8
+chrome-1      | 2024-01-20 18:34:01,396 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-1      | 2024-01-20 18:34:01,404 INFO RPC interface 'supervisor' initialized
+chrome-1      | 2024-01-20 18:34:01,407 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-1      | 2024-01-20 18:34:01,409 INFO supervisord started with pid 8
+firefox-1     | 2024-01-20 18:34:01,625 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox-1     | 2024-01-20 18:34:01,629 INFO RPC interface 'supervisor' initialized
+firefox-1     | 2024-01-20 18:34:01,629 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+firefox-1     | 2024-01-20 18:34:01,630 INFO supervisord started with pid 8
+edge-1        | 2024-01-20 18:34:01,639 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+edge-1        | 2024-01-20 18:34:01,643 INFO RPC interface 'supervisor' initialized
+edge-1        | 2024-01-20 18:34:01,643 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+edge-1        | 2024-01-20 18:34:01,644 INFO supervisord started with pid 8
+selenium-hub  | 2024-01-20 18:34:02,182 INFO spawned: 'selenium-grid-hub' with pid 9
+selenium-hub  | Tracing is disabled
+selenium-hub  | 2024-01-20 18:34:02,190 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-1      | 2024-01-20 18:34:02,414 INFO spawned: 'xvfb' with pid 9
+chrome-1      | 2024-01-20 18:34:02,423 INFO spawned: 'vnc' with pid 10
+chrome-1      | 2024-01-20 18:34:02,428 INFO spawned: 'novnc' with pid 12
+chrome-1      | 2024-01-20 18:34:02,434 INFO spawned: 'selenium-node' with pid 16
+chrome-1      | 2024-01-20 18:34:02,471 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefox-1     | 2024-01-20 18:34:02,633 INFO spawned: 'xvfb' with pid 9
+firefox-1     | 2024-01-20 18:34:02,635 INFO spawned: 'vnc' with pid 10
+firefox-1     | 2024-01-20 18:34:02,638 INFO spawned: 'novnc' with pid 11
+firefox-1     | 2024-01-20 18:34:02,644 INFO spawned: 'selenium-node' with pid 17
+edge-1        | 2024-01-20 18:34:02,648 INFO spawned: 'xvfb' with pid 9
+edge-1        | 2024-01-20 18:34:02,652 INFO spawned: 'vnc' with pid 10
+edge-1        | 2024-01-20 18:34:02,659 INFO spawned: 'novnc' with pid 12
+edge-1        | 2024-01-20 18:34:02,665 INFO spawned: 'selenium-node' with pid 14
+firefox-1     | 2024-01-20 18:34:02,686 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+edge-1        | 2024-01-20 18:34:02,706 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-1      | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+chrome-1      | Generating Selenium Config
+chrome-1      | Configuring server...
+chrome-1      | Setting up SE_NODE_HOST...
+chrome-1      | Setting up SE_NODE_PORT...
+chrome-1      | Setting up SE_NODE_GRID_URL...
+chrome-1      | Tracing is disabled
+chrome-1      | Selenium Grid Node configuration: 
+chrome-1      | [events]
+chrome-1      | publish = "tcp://selenium-hub:4442"
+chrome-1      | subscribe = "tcp://selenium-hub:4443"
+chrome-1      | 
+chrome-1      | [node]
+chrome-1      | session-timeout = "300"
+chrome-1      | override-max-sessions = false
+chrome-1      | detect-drivers = false
+chrome-1      | drain-after-session-count = 0
+chrome-1      | max-sessions = 1
+chrome-1      | 
+chrome-1      | [[node.driver-configuration]]
+chrome-1      | display-name = "chrome"
+chrome-1      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-1      | max-sessions = 1
+chrome-1      | 
+chrome-1      | Starting Selenium Grid Node...
+firefox-1     | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+firefox-1     | Generating Selenium Config
+firefox-1     | Configuring server...
+firefox-1     | Setting up SE_NODE_HOST...
+firefox-1     | Setting up SE_NODE_PORT...
+firefox-1     | Setting up SE_NODE_GRID_URL...
+firefox-1     | Tracing is disabled
+firefox-1     | Selenium Grid Node configuration: 
+firefox-1     | [events]
+firefox-1     | publish = "tcp://selenium-hub:4442"
+firefox-1     | subscribe = "tcp://selenium-hub:4443"
+firefox-1     | 
+firefox-1     | [node]
+firefox-1     | session-timeout = "300"
+firefox-1     | override-max-sessions = false
+firefox-1     | detect-drivers = false
+firefox-1     | drain-after-session-count = 0
+firefox-1     | max-sessions = 1
+firefox-1     | 
+firefox-1     | [[node.driver-configuration]]
+firefox-1     | display-name = "firefox"
+firefox-1     | stereotype = '{"browserName": "firefox", "browserVersion": "120.0", "platformName": "Linux", "moz:firefoxOptions": {"binary": "/usr/bin/firefox"}}'
+firefox-1     | max-sessions = 1
+firefox-1     | 
+firefox-1     | Starting Selenium Grid Node...
+edge-1        | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+edge-1        | Generating Selenium Config
+edge-1        | Configuring server...
+edge-1        | Setting up SE_NODE_HOST...
+edge-1        | Setting up SE_NODE_PORT...
+edge-1        | Setting up SE_NODE_GRID_URL...
+edge-1        | Tracing is disabled
+edge-1        | Selenium Grid Node configuration: 
+edge-1        | [events]
+edge-1        | publish = "tcp://selenium-hub:4442"
+edge-1        | subscribe = "tcp://selenium-hub:4443"
+edge-1        | 
+edge-1        | [node]
+edge-1        | session-timeout = "300"
+edge-1        | override-max-sessions = false
+edge-1        | detect-drivers = false
+edge-1        | drain-after-session-count = 0
+edge-1        | max-sessions = 1
+edge-1        | 
+edge-1        | [[node.driver-configuration]]
+edge-1        | display-name = "MicrosoftEdge"
+edge-1        | stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "120.0", "platformName": "Linux", "ms:edgeOptions": {"binary": "/usr/bin/microsoft-edge"}}'
+edge-1        | max-sessions = 1
+edge-1        | 
+edge-1        | Starting Selenium Grid Node...
+selenium-hub  | 18:34:03.368 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub  | 18:34:03.401 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-1      | 2024-01-20 18:34:03,470 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2024-01-20 18:34:03,471 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2024-01-20 18:34:03,471 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+selenium-hub  | 18:34:03.648 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.24.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.24.0.2:4443]
+firefox-1     | 2024-01-20 18:34:03,685 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-01-20 18:34:03,685 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-01-20 18:34:03,685 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-01-20 18:34:03,709 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-01-20 18:34:03,712 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-01-20 18:34:03,712 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+selenium-hub  | 18:34:03.855 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.24.0.2:4442 and tcp://172.24.0.2:4443
+selenium-hub  | 18:34:03.923 INFO [UnboundZmqEventBus.<init>] - Sockets created
+edge-1        | 18:34:03.913 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+edge-1        | 18:34:03.937 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-1      | 18:34:04.070 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-1      | 18:34:04.121 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+firefox-1     | 18:34:04.110 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+firefox-1     | 18:34:04.149 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+edge-1        | 18:34:04.351 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-1      | 18:34:04.387 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+firefox-1     | 18:34:04.486 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-1      | 18:34:04.516 INFO [UnboundZmqEventBus.<init>] - Sockets created
+edge-1        | 18:34:04.534 INFO [UnboundZmqEventBus.<init>] - Sockets created
+firefox-1     | 18:34:04.591 INFO [UnboundZmqEventBus.<init>] - Sockets created
+selenium-hub  | 18:34:04.937 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-1      | 18:34:05.525 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+edge-1        | 18:34:05.538 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+firefox-1     | 18:34:05.594 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-1      | 18:34:05.683 INFO [NodeServer.createHandlers] - Reporting self as: http://172.24.0.4:5555
+edge-1        | 18:34:05.685 INFO [NodeServer.createHandlers] - Reporting self as: http://172.24.0.3:5555
+chrome-1      | 18:34:05.716 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+edge-1        | 18:34:05.719 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+firefox-1     | 18:34:05.754 INFO [NodeServer.createHandlers] - Reporting self as: http://172.24.0.5:5555
+chrome-1      | 18:34:05.786 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+edge-1        | 18:34:05.786 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserName": "MicrosoftEdge","browserVersion": "120.0","ms:edgeOptions": {"binary": "\u002fusr\u002fbin\u002fmicrosoft-edge"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+firefox-1     | 18:34:05.797 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+chrome-1      | 18:34:05.821 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edge-1        | 18:34:05.847 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+firefox-1     | 18:34:05.868 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "120.0","moz:firefoxOptions": {"binary": "\u002fusr\u002fbin\u002ffirefox"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+selenium-hub  | 18:34:05.910 INFO [Hub.execute] - Started Selenium Hub 4.16.1 (revision 9b4c83354e): http://172.24.0.2:4444
+firefox-1     | 18:34:05.924 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-1      | 18:34:06.031 INFO [NodeServer$1.start] - Starting registration process for Node http://172.24.0.4:5555
+chrome-1      | 18:34:06.033 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.24.0.4:5555
+chrome-1      | 18:34:06.054 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+edge-1        | 18:34:06.076 INFO [NodeServer$1.start] - Starting registration process for Node http://172.24.0.3:5555
+edge-1        | 18:34:06.078 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.24.0.3:5555
+firefox-1     | 18:34:06.098 INFO [NodeServer$1.start] - Starting registration process for Node http://172.24.0.5:5555
+edge-1        | 18:34:06.097 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+firefox-1     | 18:34:06.103 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.24.0.5:5555
+selenium-hub  | 18:34:06.108 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+firefox-1     | 18:34:06.117 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 18:34:06.548 INFO [GridModel.setAvailability] - Switching Node dddfcb65-6aa6-4203-bb98-2ca16ca04594 (uri: http://172.24.0.4:5555) from DOWN to UP
+selenium-hub  | 18:34:06.549 INFO [LocalDistributor.add] - Added node dddfcb65-6aa6-4203-bb98-2ca16ca04594 at http://172.24.0.4:5555. Health check every 120s
+chrome-1      | 18:34:06.556 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 18:34:06.563 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub  | 18:34:06.693 INFO [GridModel.setAvailability] - Switching Node 687b0d2b-8d58-41b3-9f59-226c24e1c695 (uri: http://172.24.0.3:5555) from DOWN to UP
+selenium-hub  | 18:34:06.694 INFO [LocalDistributor.add] - Added node 687b0d2b-8d58-41b3-9f59-226c24e1c695 at http://172.24.0.3:5555. Health check every 120s
+selenium-hub  | 18:34:06.696 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edge-1        | 18:34:06.697 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 18:34:06.873 INFO [GridModel.setAvailability] - Switching Node 43c8a2d8-99d9-4703-91a0-a04503c6432c (uri: http://172.24.0.5:5555) from DOWN to UP
+selenium-hub  | 18:34:06.873 INFO [LocalDistributor.add] - Added node 43c8a2d8-99d9-4703-91a0-a04503c6432c at http://172.24.0.5:5555. Health check every 120s
+firefox-1     | 18:34:06.878 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+chrome-2      | 2024-01-20 18:34:18,712 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-2      | 2024-01-20 18:34:18,721 INFO RPC interface 'supervisor' initialized
+chrome-2      | 2024-01-20 18:34:18,722 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-2      | 2024-01-20 18:34:18,723 INFO supervisord started with pid 8
+chrome-4      | 2024-01-20 18:34:18,874 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-4      | 2024-01-20 18:34:18,877 INFO RPC interface 'supervisor' initialized
+chrome-4      | 2024-01-20 18:34:18,877 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-4      | 2024-01-20 18:34:18,879 INFO supervisord started with pid 8
+chrome-5      | 2024-01-20 18:34:19,278 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-5      | 2024-01-20 18:34:19,281 INFO RPC interface 'supervisor' initialized
+chrome-5      | 2024-01-20 18:34:19,281 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-5      | 2024-01-20 18:34:19,283 INFO supervisord started with pid 8
+chrome-3      | 2024-01-20 18:34:19,681 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-3      | 2024-01-20 18:34:19,684 INFO RPC interface 'supervisor' initialized
+chrome-3      | 2024-01-20 18:34:19,685 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-3      | 2024-01-20 18:34:19,686 INFO supervisord started with pid 8
+chrome-2      | 2024-01-20 18:34:19,727 INFO spawned: 'xvfb' with pid 9
+chrome-2      | 2024-01-20 18:34:19,732 INFO spawned: 'vnc' with pid 10
+chrome-2      | 2024-01-20 18:34:19,737 INFO spawned: 'novnc' with pid 11
+chrome-2      | 2024-01-20 18:34:19,740 INFO spawned: 'selenium-node' with pid 16
+chrome-2      | 2024-01-20 18:34:19,756 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-4      | 2024-01-20 18:34:19,881 INFO spawned: 'xvfb' with pid 9
+chrome-4      | 2024-01-20 18:34:19,883 INFO spawned: 'vnc' with pid 10
+chrome-4      | 2024-01-20 18:34:19,885 INFO spawned: 'novnc' with pid 11
+chrome-4      | 2024-01-20 18:34:19,889 INFO spawned: 'selenium-node' with pid 18
+chrome-4      | 2024-01-20 18:34:19,901 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-2      | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+chrome-2      | Generating Selenium Config
+chrome-2      | Configuring server...
+chrome-2      | Setting up SE_NODE_HOST...
+chrome-2      | Setting up SE_NODE_PORT...
+chrome-2      | Setting up SE_NODE_GRID_URL...
+chrome-2      | Tracing is disabled
+chrome-2      | Selenium Grid Node configuration: 
+chrome-2      | [events]
+chrome-2      | publish = "tcp://selenium-hub:4442"
+chrome-2      | subscribe = "tcp://selenium-hub:4443"
+chrome-2      | 
+chrome-2      | [node]
+chrome-2      | session-timeout = "300"
+chrome-2      | override-max-sessions = false
+chrome-2      | detect-drivers = false
+chrome-2      | drain-after-session-count = 0
+chrome-2      | max-sessions = 1
+chrome-2      | 
+chrome-2      | [[node.driver-configuration]]
+chrome-2      | display-name = "chrome"
+chrome-2      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-2      | max-sessions = 1
+chrome-2      | 
+chrome-2      | Starting Selenium Grid Node...
+chrome-4      | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+chrome-4      | Generating Selenium Config
+chrome-4      | Configuring server...
+chrome-4      | Setting up SE_NODE_HOST...
+chrome-4      | Setting up SE_NODE_PORT...
+chrome-4      | Setting up SE_NODE_GRID_URL...
+chrome-4      | Tracing is disabled
+chrome-4      | Selenium Grid Node configuration: 
+chrome-4      | [events]
+chrome-4      | publish = "tcp://selenium-hub:4442"
+chrome-4      | subscribe = "tcp://selenium-hub:4443"
+chrome-4      | 
+chrome-4      | [node]
+chrome-4      | session-timeout = "300"
+chrome-4      | override-max-sessions = false
+chrome-4      | detect-drivers = false
+chrome-4      | drain-after-session-count = 0
+chrome-4      | max-sessions = 1
+chrome-4      | 
+chrome-4      | [[node.driver-configuration]]
+chrome-4      | display-name = "chrome"
+chrome-4      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-4      | max-sessions = 1
+chrome-4      | 
+chrome-4      | Starting Selenium Grid Node...
+chrome-5      | 2024-01-20 18:34:20,287 INFO spawned: 'xvfb' with pid 9
+chrome-5      | 2024-01-20 18:34:20,297 INFO spawned: 'vnc' with pid 10
+chrome-5      | 2024-01-20 18:34:20,300 INFO spawned: 'novnc' with pid 11
+chrome-5      | 2024-01-20 18:34:20,308 INFO spawned: 'selenium-node' with pid 16
+chrome-5      | 2024-01-20 18:34:20,337 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-5      | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+chrome-5      | Generating Selenium Config
+chrome-5      | Configuring server...
+chrome-5      | Setting up SE_NODE_HOST...
+chrome-5      | Setting up SE_NODE_PORT...
+chrome-5      | Setting up SE_NODE_GRID_URL...
+chrome-3      | 2024-01-20 18:34:20,695 INFO spawned: 'xvfb' with pid 9
+chrome-3      | 2024-01-20 18:34:20,701 INFO spawned: 'vnc' with pid 10
+chrome-5      | Tracing is disabled
+chrome-3      | 2024-01-20 18:34:20,707 INFO spawned: 'novnc' with pid 11
+chrome-5      | Selenium Grid Node configuration: 
+chrome-5      | [events]
+chrome-5      | publish = "tcp://selenium-hub:4442"
+chrome-3      | 2024-01-20 18:34:20,714 INFO spawned: 'selenium-node' with pid 14
+chrome-5      | subscribe = "tcp://selenium-hub:4443"
+chrome-5      | 
+chrome-5      | [node]
+chrome-5      | session-timeout = "300"
+chrome-5      | override-max-sessions = false
+chrome-5      | detect-drivers = false
+chrome-5      | drain-after-session-count = 0
+chrome-5      | max-sessions = 1
+chrome-5      | 
+chrome-5      | [[node.driver-configuration]]
+chrome-5      | display-name = "chrome"
+chrome-5      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-5      | max-sessions = 1
+chrome-5      | 
+chrome-5      | Starting Selenium Grid Node...
+chrome-3      | 2024-01-20 18:34:20,748 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-2      | 2024-01-20 18:34:20,762 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | 2024-01-20 18:34:20,766 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | 2024-01-20 18:34:20,767 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-4      | 2024-01-20 18:34:20,898 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-4      | 2024-01-20 18:34:20,899 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-4      | 2024-01-20 18:34:20,899 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+chrome-3      | Generating Selenium Config
+chrome-3      | Configuring server...
+chrome-3      | Setting up SE_NODE_HOST...
+chrome-3      | Setting up SE_NODE_PORT...
+chrome-3      | Setting up SE_NODE_GRID_URL...
+chrome-2      | 18:34:21.181 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-3      | Tracing is disabled
+chrome-3      | Selenium Grid Node configuration: 
+chrome-3      | [events]
+chrome-3      | publish = "tcp://selenium-hub:4442"
+chrome-3      | subscribe = "tcp://selenium-hub:4443"
+chrome-3      | 
+chrome-3      | [node]
+chrome-3      | session-timeout = "300"
+chrome-3      | override-max-sessions = false
+chrome-3      | detect-drivers = false
+chrome-3      | drain-after-session-count = 0
+chrome-3      | max-sessions = 1
+chrome-3      | 
+chrome-3      | [[node.driver-configuration]]
+chrome-3      | display-name = "chrome"
+chrome-3      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-3      | max-sessions = 1
+chrome-3      | 
+chrome-2      | 18:34:21.274 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-3      | Starting Selenium Grid Node...
+chrome-4      | 18:34:21.183 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-5      | 2024-01-20 18:34:21,346 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-5      | 2024-01-20 18:34:21,351 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-5      | 2024-01-20 18:34:21,351 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-4      | 18:34:21.388 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-4      | 18:34:21.736 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-2      | 18:34:21.733 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-3      | 2024-01-20 18:34:21,772 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | 2024-01-20 18:34:21,773 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | 2024-01-20 18:34:21,773 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | 18:34:21.894 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-4      | 18:34:21.938 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-5      | 18:34:22.056 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-5      | 18:34:22.077 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-5      | 18:34:22.188 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-5      | 18:34:22.244 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-3      | 18:34:22.269 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-3      | 18:34:22.282 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-3      | 18:34:22.368 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-3      | 18:34:22.414 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-2      | 18:34:22.908 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-4      | 18:34:22.942 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-2      | 18:34:23.053 INFO [NodeServer.createHandlers] - Reporting self as: http://172.24.0.6:5555
+chrome-2      | 18:34:23.081 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+chrome-4      | 18:34:23.093 INFO [NodeServer.createHandlers] - Reporting self as: http://172.24.0.7:5555
+chrome-4      | 18:34:23.119 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+chrome-2      | 18:34:23.148 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-2      | 18:34:23.184 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-4      | 18:34:23.190 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-4      | 18:34:23.216 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-5      | 18:34:23.247 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-5      | 18:34:23.411 INFO [NodeServer.createHandlers] - Reporting self as: http://172.24.0.8:5555
+chrome-3      | 18:34:23.416 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-2      | 18:34:23.443 INFO [NodeServer$1.start] - Starting registration process for Node http://172.24.0.6:5555
+chrome-2      | 18:34:23.448 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.24.0.6:5555
+chrome-5      | 18:34:23.447 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+chrome-2      | 18:34:23.474 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+chrome-4      | 18:34:23.486 INFO [NodeServer$1.start] - Starting registration process for Node http://172.24.0.7:5555
+chrome-4      | 18:34:23.489 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.24.0.7:5555
+selenium-hub  | 18:34:23.508 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-4      | 18:34:23.520 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+chrome-5      | 18:34:23.556 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-5      | 18:34:23.593 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-3      | 18:34:23.659 INFO [NodeServer.createHandlers] - Reporting self as: http://172.24.0.9:5555
+chrome-3      | 18:34:23.695 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+selenium-hub  | 18:34:23.755 INFO [GridModel.setAvailability] - Switching Node 575d4052-768d-4dc6-be8f-4aba7b4d59da (uri: http://172.24.0.6:5555) from DOWN to UP
+selenium-hub  | 18:34:23.755 INFO [LocalDistributor.add] - Added node 575d4052-768d-4dc6-be8f-4aba7b4d59da at http://172.24.0.6:5555. Health check every 120s
+selenium-hub  | 18:34:23.758 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-2      | 18:34:23.775 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+chrome-3      | 18:34:23.777 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-3      | 18:34:23.813 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-5      | 18:34:23.822 INFO [NodeServer$1.start] - Starting registration process for Node http://172.24.0.8:5555
+chrome-5      | 18:34:23.824 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.24.0.8:5555
+chrome-5      | 18:34:23.839 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 18:34:23.964 INFO [GridModel.setAvailability] - Switching Node 3e742e74-af3e-4733-974c-fdc92458692a (uri: http://172.24.0.7:5555) from DOWN to UP
+selenium-hub  | 18:34:23.964 INFO [LocalDistributor.add] - Added node 3e742e74-af3e-4733-974c-fdc92458692a at http://172.24.0.7:5555. Health check every 120s
+selenium-hub  | 18:34:23.967 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-4      | 18:34:23.987 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+chrome-3      | 18:34:24.022 INFO [NodeServer$1.start] - Starting registration process for Node http://172.24.0.9:5555
+chrome-3      | 18:34:24.024 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.24.0.9:5555
+chrome-3      | 18:34:24.038 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 18:34:24.202 INFO [GridModel.setAvailability] - Switching Node 299d00a9-b104-4adb-8aa9-1b08accfd0a6 (uri: http://172.24.0.8:5555) from DOWN to UP
+selenium-hub  | 18:34:24.202 INFO [LocalDistributor.add] - Added node 299d00a9-b104-4adb-8aa9-1b08accfd0a6 at http://172.24.0.8:5555. Health check every 120s
+selenium-hub  | 18:34:24.214 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-5      | 18:34:24.226 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 18:34:24.641 INFO [GridModel.setAvailability] - Switching Node 3ef53aad-d061-459c-909a-cb8d4ba70076 (uri: http://172.24.0.9:5555) from DOWN to UP
+selenium-hub  | 18:34:24.641 INFO [LocalDistributor.add] - Added node 3ef53aad-d061-459c-909a-cb8d4ba70076 at http://172.24.0.9:5555. Health check every 120s
+chrome-3      | 18:34:24.652 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 18:34:47.942 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  |  [Capabilities {browserName: chrome}]
+selenium-hub  | 18:34:47.942 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  |  [Capabilities {browserName: chrome}]
+selenium-hub  | 18:34:47.942 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  |  [Capabilities {browserName: chrome}]
+chrome-5      | 18:34:58.775 INFO [LocalNode.newSession] - Session created by the Node. Id: 3597ae7bf3917508fba12b368b4ec788, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.24.0.8:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.24.0.8:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.24.0.8:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+chrome-1      | 18:34:58.778 INFO [LocalNode.newSession] - Session created by the Node. Id: 0629221ac8507506969a056074befcd6, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.24.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.24.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.24.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+chrome-4      | 18:34:58.776 INFO [LocalNode.newSession] - Session created by the Node. Id: b8db049f728a94bbbf36146196005ca3, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.24.0.7:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.24.0.7:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.24.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub  | 18:34:58.888 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 3597ae7bf3917508fba12b368b4ec788 
+selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.24.0.8:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.24.0.8:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.24.0.8:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub  | 18:34:58.888 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 0629221ac8507506969a056074befcd6 
+selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.24.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.24.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.24.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub  | 18:34:58.888 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: b8db049f728a94bbbf36146196005ca3 
+selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.24.0.7:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.24.0.7:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.24.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+edge-1        | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-3      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-5      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-1      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-4      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+firefox-1     | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-2      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-3      | 2024-01-20 18:35:12,399 WARN received SIGTERM indicating exit request
+chrome-3      | 2024-01-20 18:35:12,419 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-2      | 2024-01-20 18:35:12,618 WARN received SIGTERM indicating exit request
+chrome-2      | 2024-01-20 18:35:12,643 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-1      | 2024-01-20 18:35:12,814 WARN received SIGTERM indicating exit request
+chrome-4      | 2024-01-20 18:35:12,818 WARN received SIGTERM indicating exit request
+chrome-5      | 2024-01-20 18:35:12,824 WARN received SIGTERM indicating exit request
+chrome-4      | 2024-01-20 18:35:12,844 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-5      | 2024-01-20 18:35:12,848 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-5      | 18:35:12.871 INFO [LocalNode.stopAllSessions] - Trying to stop all running sessions before shutting down...
+chrome-1      | 2024-01-20 18:35:12,876 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-1      | 18:35:12.868 INFO [LocalNode.stopAllSessions] - Trying to stop all running sessions before shutting down...
+chrome-1      | 2024-01-20 18:35:12,891 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-4      | 18:35:12.889 INFO [LocalNode.stopAllSessions] - Trying to stop all running sessions before shutting down...
+chrome-5      | 2024-01-20 18:35:12,892 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-1      | 2024-01-20 18:35:12,929 INFO stopped: novnc (terminated by SIGTERM)
+chrome-1      | 2024-01-20 18:35:12,937 INFO stopped: vnc (terminated by SIGTERM)
+chrome-1      | 2024-01-20 18:35:12,942 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-3      | 2024-01-20 18:35:12,954 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-5      | 2024-01-20 18:35:12,954 INFO stopped: novnc (terminated by SIGTERM)
+chrome-4      | 2024-01-20 18:35:12,969 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-4      | 2024-01-20 18:35:13,017 INFO stopped: novnc (terminated by SIGTERM)
+selenium-hub  | 18:35:13.069 INFO [GridModel.release] - Releasing slot for session id b8db049f728a94bbbf36146196005ca3
+selenium-hub  | 18:35:13.070 INFO [GridModel.release] - Releasing slot for session id 3597ae7bf3917508fba12b368b4ec788
+selenium-hub  | 18:35:13.072 INFO [GridModel.release] - Releasing slot for session id 0629221ac8507506969a056074befcd6
+selenium-hub  | 18:35:13.070 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 0629221ac8507506969a056074befcd6
+selenium-hub  | 18:35:13.070 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 3597ae7bf3917508fba12b368b4ec788
+selenium-hub  | 18:35:13.069 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: b8db049f728a94bbbf36146196005ca3
+edge-1        | 2024-01-20 18:35:13,102 WARN received SIGTERM indicating exit request
+edge-1        | 2024-01-20 18:35:13,137 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-2      | 2024-01-20 18:35:13,146 INFO stopped: selenium-node (terminated by SIGTERM)
+firefox-1     | 2024-01-20 18:35:13,277 WARN received SIGTERM indicating exit request
+firefox-1     | 2024-01-20 18:35:13,295 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-1      | Shutdown complete
+edge-1        | 2024-01-20 18:35:13,594 INFO stopped: selenium-node (terminated by SIGTERM)
+firefox-1     | 2024-01-20 18:35:13,752 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-5      | 2024-01-20 18:35:13,963 INFO stopped: vnc (terminated by SIGTERM)
+chrome-3      | 2024-01-20 18:35:13,970 INFO stopped: novnc (terminated by SIGTERM)
+chrome-4      | 2024-01-20 18:35:14,024 INFO stopped: vnc (terminated by SIGTERM)
+chrome-2      | 2024-01-20 18:35:14,178 INFO stopped: novnc (terminated by SIGTERM)
+chrome-1 exited with code 0
+chrome-1 exited with code 143
+edge-1        | 2024-01-20 18:35:14,607 INFO stopped: novnc (terminated by SIGTERM)
+firefox-1     | 2024-01-20 18:35:14,768 INFO stopped: novnc (terminated by SIGTERM)
+chrome-5      | 2024-01-20 18:35:14,969 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-3      | 2024-01-20 18:35:14,978 INFO stopped: vnc (terminated by SIGTERM)
+chrome-4      | 2024-01-20 18:35:15,030 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-2      | 2024-01-20 18:35:15,184 INFO stopped: vnc (terminated by SIGTERM)
+chrome-4      | Shutdown complete
+chrome-5      | Shutdown complete
+edge-1        | 2024-01-20 18:35:15,613 INFO stopped: vnc (terminated by SIGTERM)
+firefox-1     | 2024-01-20 18:35:15,774 INFO stopped: vnc (terminated by SIGTERM)
+chrome-3      | 2024-01-20 18:35:15,984 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-5 exited with code 0
+chrome-5 exited with code 143
+chrome-2      | 2024-01-20 18:35:16,188 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-3      | Shutdown complete
+chrome-2      | Shutdown complete
+edge-1        | 2024-01-20 18:35:16,619 INFO stopped: xvfb (terminated by SIGTERM)
+firefox-1     | 2024-01-20 18:35:16,779 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-4 exited with code 0
+chrome-4 exited with code 143
+chrome-3 exited with code 0
+chrome-3 exited with code 143
+chrome-2 exited with code 0
+chrome-2 exited with code 143
+edge-1        | Shutdown complete
+firefox-1     | Shutdown complete
+edge-1 exited with code 0
+edge-1 exited with code 143
+firefox-1 exited with code 0
+firefox-1 exited with code 143
+selenium-hub  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+selenium-hub  | 2024-01-20 18:35:19,098 WARN received SIGTERM indicating exit request
+selenium-hub  | 2024-01-20 18:35:19,115 INFO waiting for selenium-grid-hub to die
+selenium-hub  | 2024-01-20 18:35:20,124 INFO stopped: selenium-grid-hub (terminated by SIGTERM)
+selenium-hub  | Shutdown complete
+selenium-hub exited with code 0
