@@ -1,0 +1,56 @@
+pipeline
+{
+	agent any
+
+	stages
+	{
+		stage('Build')
+		{
+			steps
+			{
+				bat "mvn clean"
+			}
+		}
+		
+		stage('Deploy to Dev')
+		{
+			steps
+			{
+				echo 'deploying the code to Dev'
+			}
+		}
+		
+		stage('Unit Test')
+		{
+			steps
+			{
+				bat "mvn test"
+			}
+		}
+		
+		stage('Deploy to QA')
+		{
+			steps
+			{
+				echo 'deploying the code to QA'
+			}
+		}
+		
+		stage('E2E Test')
+		{
+			steps
+			{
+				bat "mvn test"
+			}
+		}
+		
+		stage('Release to Prod')
+		{
+			steps
+			{
+				echo 'releasing the code to Prod'
+			}
+		}
+
+	}
+}
